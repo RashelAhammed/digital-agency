@@ -1,0 +1,89 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.nav-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(156, 144, 144);
+  padding: 10px;
+}
+.nav-item{
+  display: flex;
+  list-style:none ;
+  gap: 25px;
+  cursor: pointer;
+  font-size: 17px;
+  color: white;
+  font-weight: bold;
+}
+.h-titel{
+  color: red;
+}
+.btn{
+  padding: 15px;
+  border: 0;
+  border-radius: 5px;
+  margin: 10px;
+}
+.btn-primary{
+  background-color: red;
+  color: white;
+}
+.banner-heading{
+  font-size: 50px;
+  font-weight: bold;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: white;
+}
+.banner-container{
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content:center;
+  background-image:url("asset/image/background.jpg"),linear-gradient(to right, rgba(255,0,0,0), rgb(80, 72, 72));
+  background-blend-mode: darken;
+  padding: 10px;
+  background-position: center;
+  background-size: cover;
+  
+}
+.banner-description{
+  color: white;
+  font-size: 20px;
+  
+}
+.service-logo{
+  width: 70px;
+}
+.service-container{
+  color: white;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content:center;
+  background-image:url("asset/image/footer-bg.png"),linear-gradient(to right, rgba(8, 4, 4, 0.934), rgba(5, 4, 4, 0.745));
+  background-blend-mode: darken;
+  padding: 20px;
+
+}
+.box{
+  width: 220px;
+  height: 170px;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  color: black;
+  background-color: white;
+
+}
+.service-description{
+width: 50%;
+}
+.all-box{
+  display: flex;
+  gap: 3px;
+  margin: 5px;
+}
