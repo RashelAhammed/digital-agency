@@ -64,7 +64,7 @@
   height: 100vh;
   align-items: center;
   justify-content:center;
-  background-image:url("asset/image/footer-bg.png"),linear-gradient(to right, rgba(8, 4, 4, 0.934), rgba(5, 4, 4, 0.745));
+  background-image:url("asset/image/footer-bg.png"),linear-gradient(to left, rgba(8, 4, 4, 0.934), rgba(5, 4, 4, 0.745));
   background-blend-mode: darken;
   padding: 20px;
 
@@ -86,4 +86,44 @@ width: 50%;
   display: flex;
   gap: 3px;
   margin: 5px;
+}
+.service-left{
+  padding-left: 20px;
+}
+.img-container{
+  display: flex;
+  padding: 10px;
+}
+.author-img{
+  border-radius: 75px;
+}
+.author{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-right:3px solid rgb(210, 35, 35) ;
+}
+.appointment-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 80%;
+  padding: 40px;
+  margin: auto;
+  background-color: crimson;
+  margin-top: -70px;
+  border-radius: 5px;
+  color: white;
+}
+.appoinment-logo{
+  width: 80px;
+}
+.telephone{
+  display: flex;
+}
+.appoinment-description{
+  width: 80%;
+  font-size: 17px;
+  padding-left: 20px;
 }
